@@ -15,7 +15,7 @@ devtools::install_github("karthik/mapboxer")
 library(ecoengine)
 library(dplyr)
 library(mapboxer)
-lynx <- ee_observations(genus = "lynx", georeferenced = TRUE) %>%
+lynx <- ee_observations(genus = "lynx", georeferenced = TRUE)
 mapbox(lynx$data)
 ```
 
