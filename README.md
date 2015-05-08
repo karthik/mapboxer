@@ -19,4 +19,4 @@ lynx <- ee_observations(genus = "lynx", georeferenced = TRUE) %>%
 mapbox(lynx$data)
 ```
 
-[Imgur](http://i.imgur.com/FmJkpuP.jpg)
+![Imgur](http://i.imgur.com/FmJkpuP.jpg)
