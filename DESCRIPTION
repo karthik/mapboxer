@@ -1,0 +1,13 @@
+Package: mapboxer
+Title: Mapbox maps from R
+Version: 0.1.0.9000
+Authors@R: 'Karthik Ram <karthik.ram@gmail.com> [aut, cre]'
+Description: Generates beautiful Mapbox (tm) maps from R data.frames.
+Depends: R (>= 3.2.0)
+License: MIT + file LICENSE
+LazyData: true
+Imports: 
+    RColorBrewer,
+    dplyr,
+    leafletR,
+    magrittr
